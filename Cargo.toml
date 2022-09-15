@@ -1,0 +1,6 @@
+package={name= 'video', version= '0.0.0', edition= '2021'}
+bin=[{name='video', path='video.rs'}]
+
+[dependencies]
+memmap='*'
+matroska={version='*', git='https://github.com/rust-av/matroska'}
