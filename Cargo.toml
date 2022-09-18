@@ -3,4 +3,5 @@ bin=[{name='video', path='video.rs'}]
 
 [dependencies]
 memmap='*'
+nom='*'
 matroska={version='*', git='https://github.com/rust-av/matroska'}
